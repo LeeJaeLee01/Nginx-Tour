@@ -1,0 +1,16 @@
+{
+  "name": "Nginx-Tour",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:LeeJaeLee01/Nginx-Tour.git",
+  "author": "Cuong Phung Duc <cuongpd@foobla.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}

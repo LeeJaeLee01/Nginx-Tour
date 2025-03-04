@@ -1,0 +1,24 @@
+install Nginx Ubuntu:
+
+- sudo apt install nginx
+- sudo nano /etc/ufw/applications.d/nginx
+[Nginx Full]
+title=Nginx Full
+description=Allow both HTTP and HTTPS traffic
+ports=80,443/tcp
+
+[Nginx HTTP]
+title=Nginx HTTP
+description=Allow HTTP traffic
+ports=80/tcp
+
+[Nginx HTTPS]
+title=Nginx HTTPS
+description=Allow HTTPS traffic
+ports=443/tcp
+- sudo ufw app update all
+- sudo ufw app list
+
+- sudo nano /etc/hosts
+
+install Docker
